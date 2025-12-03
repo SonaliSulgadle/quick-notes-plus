@@ -68,7 +68,6 @@ dependencies {
     debugImplementation(libs.androidx.compose.ui.test.manifest)
 
 
-
     implementation(libs.androidx.activity.compose)
     implementation(libs.androidx.compose.material3)
     implementation(libs.androidx.compose.material3.adaptive)
@@ -77,16 +76,16 @@ dependencies {
     implementation(libs.androidx.compose.material3.windowSizeClass)
     implementation(libs.androidx.compose.runtime.tracing)
     implementation(libs.androidx.core.ktx)
-    implementation(libs.androidx.core.splashscreen)
+//    implementation(libs.androidx.core.splashscreen)
     implementation(libs.androidx.hilt.navigation.compose)
     implementation(libs.androidx.lifecycle.runtimeCompose)
     implementation(libs.androidx.navigation.compose)
     implementation(libs.androidx.profileinstaller)
-    implementation(libs.androidx.tracing.ktx)
+//    implementation(libs.androidx.tracing.ktx)
     implementation(libs.androidx.window.core)
     implementation(libs.kotlinx.coroutines.guava)
     implementation(libs.coil.kt)
-    implementation(libs.kotlinx.serialization.json)
+//    implementation(libs.kotlinx.serialization.json)
 
     ksp(libs.room.compiler)
     implementation(libs.room.runtime)
@@ -95,8 +94,5 @@ dependencies {
     implementation(libs.hilt.android)
 
     ksp(libs.hilt.compiler)
-
-//    debugImplementation(projects.uiTestHiltManifest)
-
     kspTest(libs.hilt.compiler)
 }

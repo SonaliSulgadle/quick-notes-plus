@@ -61,9 +61,6 @@ fun QuickNotesApp(
                 val id = backStackEntry.arguments?.getInt("id") ?: -1
                 AddEditNoteScreen(
                     noteId = id,
-                    onSaveClick = {
-                        navController.navigateUp()
-                    },
                     onNavigateBack = {
                         navController.popBackStack()
                     }

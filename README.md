@@ -53,6 +53,23 @@ This project follows **MVVM + Clean Architecture** principles:
 
 ---
 
+## Screenshots
+
+### Notes List Screen
+Shows all notes in a staggered grid with empty state message when no notes exist.
+
+![Notes List Screen](screenshots/notes_list.png)
+![Notes List Screen](screenshots/notes_list_empty.png)
+
+---
+
+### Add/Edit Note Screen
+Allows adding a new note or editing an existing one. Save notes with the check icon in the top bar.
+
+![Add/Edit Note Screen](screenshots/add_edit_note.png)
+
+---
+
 ## How to Run
 
 1. Clone the repository:
